@@ -10,23 +10,32 @@ const Homeabout = () => {
         <div className="container mx-auto px-4 h-screen items-center justify-center flex flex-col space-y-5 lg:px-7 lg:space-x-10 lg:flex-row">
           <div className="flex flex-col items-center justify-center -space-y-5 lg:w-1/4">
             <img
-              className="rounded-full h-40 w-40"
-              src="./src/Images/spider.JPG"
+              className="rounded-full object-cover h-40 w-40"
+              src="./src/Images/spidey.JPG"
               alt=""
             />
             <div className="border border-grey bg-primary w-60 py-3 space-y-1 px-4 text-white text-center rounded-md ">
               <p>Oluwasuyi Timilehin</p>
               <div className="flex justify-center px-4 space-x-3">
-                <Link to="" className="text-xl">
+                <Link
+                  to="https://github.com/Oluwasuyi-Timilehin"
+                  className="text-xl"
+                >
                   <FaGithub color="white" />
                 </Link>
-                <Link to="" className="text-xl">
+                <Link
+                  to="https://twitter.com/OluwasuyiOlumi3"
+                  className="text-xl"
+                >
                   <FaTwitter color="white" />
                 </Link>
                 <Link to="" className="text-xl">
                   <FaLinkedin color="white" />
                 </Link>
-                <Link to="" className="text-xl">
+                <Link
+                  to="https://www.instagram.com/dxrkfacee/"
+                  className="text-xl"
+                >
                   <FaInstagram color="white" />
                 </Link>
               </div>

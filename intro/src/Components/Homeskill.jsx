@@ -8,7 +8,7 @@ const Homeskill = () => {
   return (
     <>
       <div className="bg-primary py-10 text-white lg:py-0">
-        <div className="container mx-auto px-4 space-y-10 flex flex-col lg:h-screen lg:justify-center lg:flex-row lg:space-x-20 lg:items-center lg:px-7">
+        <div className="container mx-auto px-4 space-y-10 flex flex-col lg:h-screen lg:justify-center lg:flex-row lg:space-x-20 lg:items-center lg:px-7 transition ease-out duration-1000">
           <div className="flex flex-col space-y-4 lg:w-1/2">
             <div className="space-y-1">
               <p className="text-white text-sm font-medium">MY SKILLS</p>

@@ -8,6 +8,8 @@ import Homeabout from "./Homeabout";
 import Hero from "./Hero";
 import Homeskill from "./Homeskill";
 import Homeproject from "./Homeproject";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -18,12 +20,12 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-primary py-3 text-white w-full sticky top-0 z-50">
+      <nav className="bg-primary py-3 text-white w-full sticky top-0 z-50 lg:py-2">
         <div className="flex items-center px-3 container mx-auto justify-between">
           <RouterLink to="/" className="text-2xl text-secondary">
             <FaCode />
           </RouterLink>
-          <div className="hidden lg:flex lg:items-center lg:text-grey font-semibold lg:space-x-10">
+          <div className="hidden lg:flex lg:items-center font-semibold lg:space-x-10">
             <ScrollLink
               to="about"
               spy={true}
@@ -54,10 +56,21 @@ const Navbar = () => {
             >
               PROJECT
             </ScrollLink>
+            <ScrollLink
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="cursor-pointer"
+              onClick={toggleMenu}
+            >
+              CONTACT
+            </ScrollLink>
             <a
               href="/resume.pdf"
               download
-              className="border p-1.5 border-secondary rounded-lg"
+              className="border p-1.5 border-secondary rounded-md transition-all duration-500 hover:bg-secondary"
             >
               Resume
             </a>
@@ -110,11 +123,18 @@ const Navbar = () => {
           >
             PROJECT
           </ScrollLink>
-          <a
-            href="/resume.pdf"
-            download
-            className=""
+          <ScrollLink
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="cursor-pointer"
+            onClick={toggleMenu}
           >
+            CONTACT
+          </ScrollLink>
+          <a href="/resume.pdf" download className="">
             Resume
           </a>
         </div>
@@ -131,6 +151,12 @@ const Navbar = () => {
         </Element>
         <Element name="resume" className="">
           <Homeproject />
+        </Element>
+        <Element name="contact" className="">
+          <Contact />
+        </Element>
+        <Element>
+          <Footer />
         </Element>
       </div>
     </>

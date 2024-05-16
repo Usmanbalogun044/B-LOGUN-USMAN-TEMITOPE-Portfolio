@@ -26,8 +26,10 @@ const Footer = () => {
               </Link>
             </div>
             <Link to="" className="flex items-center space-x-3">
-              <MdOutlineMail color="white" fontSize={25}/>
-              <p>oluwasuyitimilehin@gmail.com</p>
+              <MdOutlineMail color="white" fontSize={25} />
+              <a href="mailto:oluwasuyitimilehin@gmail.com?subject=Contact from Portfolio&body=Hello Timilehin,">
+                oluwasuyitimilehin@gmail.com
+              </a>
             </Link>
             <p className="text-white">2024 - Oluwasuyi Timilehin</p>
           </div>
