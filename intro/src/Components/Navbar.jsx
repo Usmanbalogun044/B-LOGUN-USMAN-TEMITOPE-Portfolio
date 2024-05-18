@@ -87,54 +87,60 @@ const Navbar = () => {
       <div
         className={`fixed ${
           open ? "block" : "hidden"
-        } bg-primary text-white top-12 w-full z-40 lg:hidden h-screen`}
+        } bg-primary text-white top-12 w-full flex justify-center items-center z-40 lg:hidden h-screen`}
       >
-        <div className="flex flex-col text-center space-y-10 pt-10">
-          <ScrollLink
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            className="cursor-pointer"
-            onClick={toggleMenu}
+        <div className="flex flex-col items-center space-y-20">
+          <div className="flex flex-col items-center space-y-16">
+            <ScrollLink
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="cursor-pointer text-xl font-semibold"
+              onClick={toggleMenu}
+            >
+              ABOUT
+            </ScrollLink>
+            <ScrollLink
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="cursor-pointer text-xl font-semibold"
+              onClick={toggleMenu}
+            >
+              SKILLS
+            </ScrollLink>
+            <ScrollLink
+              to="resume"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="cursor-pointer text-xl font-semibold"
+              onClick={toggleMenu}
+            >
+              PROJECT
+            </ScrollLink>
+            <ScrollLink
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="cursor-pointer text-xl font-semibold"
+              onClick={toggleMenu}
+            >
+              CONTACT
+            </ScrollLink>
+          </div>
+          <a
+            href="/resume.pdf"
+            download
+            className="border p-3 text-xl font-semibold border-secondary rounded-md transition-all duration-500 hover:bg-secondary"
           >
-            ABOUT
-          </ScrollLink>
-          <ScrollLink
-            to="skills"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            className="cursor-pointer"
-            onClick={toggleMenu}
-          >
-            SKILLS
-          </ScrollLink>
-          <ScrollLink
-            to="resume"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            className="cursor-pointer"
-            onClick={toggleMenu}
-          >
-            PROJECT
-          </ScrollLink>
-          <ScrollLink
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            className="cursor-pointer"
-            onClick={toggleMenu}
-          >
-            CONTACT
-          </ScrollLink>
-          <a href="/resume.pdf" download className="">
             Resume
           </a>
         </div>
