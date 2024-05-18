@@ -13,7 +13,7 @@ const Homeproject = () => {
               What <span className="text-secondary">i have built</span>
             </p>
           </div>
-          <div className="flex flex-col lg:flex-row lg:space-x-10 lg:items-center">
+          <div className="flex flex-col space-y-2 lg:flex-row lg:space-x-10 lg:space-y-0 lg:items-center">
             <div className="flex flex-col lg:w-1/2">
               <div className="space-y-4 lg:space-y-6">
                 <div className="flex flex-row items-center space-x-3">
@@ -44,10 +44,10 @@ const Homeproject = () => {
 
             <img
               src="./src/Images/spider.JPG"
-              className="rounded-xl mx-auto lg:h-96 lg:w-1/2"
+              className="rounded-sm mx-auto w-full h-40 lg:h-60 lg:w-1/2 object-fill"
             />
           </div>
-          <div className="flex flex-col lg:flex-row lg:space-x-20 lg:items-center">
+          <div className="flex flex-col space-y-2 lg:space-y-0 lg:flex-row lg:space-x-20 lg:items-center">
             <div className="flex flex-col lg:w-1/2">
               <div className="space-y-4 lg:space-y-6">
                 <div className="flex flex-row items-center space-x-3">
@@ -78,7 +78,7 @@ const Homeproject = () => {
 
             <img
               src="./src/Images/spider.JPG"
-              className="rounded-xl mx-auto lg:h-96 lg:w-1/2"
+              className="rounded-sm mx-auto w-full h-40 lg:h-60 lg:w-1/2 object-fill"
             />
           </div>
         </div>
