@@ -43,12 +43,12 @@ const Homeproject = () => {
             </div>
 
             <img
-              src="./src/Images/spider.JPG"
-              className="rounded-sm mx-auto w-full h-40 lg:h-60 lg:w-1/2 object-fill"
+              src="./src/Images/spider.png"
+              className="rounded-sm mx-auto w-full h-40 lg:h-60 lg:w-1/2 object-cover"
             />
           </div>
           <div className="flex flex-col space-y-2 lg:space-y-0 lg:flex-row lg:space-x-20 lg:items-center">
-            <div className="flex flex-col lg:w-1/2">
+            <div className="bg-gray-300 text-black p-3 rounded-md flex flex-col lg:w-1/2">
               <div className="space-y-4 lg:space-y-6">
                 <div className="flex flex-row items-center space-x-3">
                   <p className="text-white text-xl font-semibold">Fast Care</p>
@@ -60,11 +60,12 @@ const Homeproject = () => {
                   </Link>
                 </div>
                 <div className="flex flex-row space-x-4">
+                  <div className="bg-secondary px-3 py-1 rounded-md">Html</div>
                   <div className="bg-secondary px-3 py-1 rounded-md">
-                    React.Js
+                    Tailwind
                   </div>
                   <div className="bg-secondary px-3 py-1 rounded-md">
-                    Tailwind css
+                    Javascript
                   </div>
                 </div>
                 <p className="text-white">
@@ -77,8 +78,8 @@ const Homeproject = () => {
             </div>
 
             <img
-              src="./src/Images/spider.JPG"
-              className="rounded-sm mx-auto w-full h-40 lg:h-60 lg:w-1/2 object-fill"
+              src="./src/Images/fastcare.png"
+              className="rounded-sm mx-auto w-full h-40 lg:h-60 lg:w-1/2 object-cover"
             />
           </div>
         </div>

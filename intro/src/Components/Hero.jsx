@@ -29,13 +29,13 @@ const Hero = () => {
               <Link to="" className="">
                 <FaLinkedin className="" />
               </Link>
-              <Link to='https://twitter.com/OluwasuyiOlumi3' className="">
+              <Link to="https://twitter.com/OluwasuyiOlumi3" className="">
                 <FaTwitter className="" />
               </Link>
               <button className="">
                 <FaYoutube className="" />
               </button>
-              <Link to='https://www.instagram.com/dxrkfacee/' className="">
+              <Link to="https://www.instagram.com/dxrkfacee/" className="">
                 <FaInstagram className="" />
               </Link>
             </div>
