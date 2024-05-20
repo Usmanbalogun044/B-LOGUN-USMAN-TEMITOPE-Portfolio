@@ -11,10 +11,16 @@ const Footer = () => {
         <div className="container mx-auto">
           <div className="px-4 flex flex-col space-y-2 text-white justify-center items-center">
             <div className="flex space-x-6">
-              <Link to="" className="text-2xl">
+              <Link
+                to="https://github.com/Oluwasuyi-Timilehin"
+                className="text-2xl"
+              >
                 <FaGithub color="white" />
               </Link>
-              <Link to="" className=" text-2xl">
+              <Link
+                to="https://twitter.com/OluwasuyiOlumi3"
+                className=" text-2xl"
+              >
                 <FaTwitter color="white" />
               </Link>
 

@@ -3,6 +3,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -25,18 +26,18 @@ const Hero = () => {
               with 3 years experience creating user friendly websites.
             </p>
             <div className="flex space-x-4 text-xl text-white lg:text-2xl">
-              <button className="">
+              <Link to="" className="">
                 <FaLinkedin className="" />
-              </button>
-              <button className="">
+              </Link>
+              <Link to='https://twitter.com/OluwasuyiOlumi3' className="">
                 <FaTwitter className="" />
-              </button>
+              </Link>
               <button className="">
                 <FaYoutube className="" />
               </button>
-              <button className="">
+              <Link to='https://www.instagram.com/dxrkfacee/' className="">
                 <FaInstagram className="" />
-              </button>
+              </Link>
             </div>
           </div>
           <div className="">
