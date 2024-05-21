@@ -7,7 +7,7 @@ import { MdOutlineMail } from "react-icons/md";
 const Footer = () => {
   return (
     <>
-      <div className="bg-primary py-5">
+      <div className="bg-primary bottom-0 py-5">
         <div className="container mx-auto">
           <div className="px-4 flex flex-col space-y-2 text-white justify-center items-center">
             <div className="flex space-x-6">
@@ -27,15 +27,19 @@ const Footer = () => {
               <Link to="" className="text-2xl">
                 <FaLinkedin color="white" />
               </Link>
-              <Link to="" className="text-2xl">
+              <Link
+                to="https://www.instagram.com/dxrkfacee/"
+                className="text-2xl"
+              >
                 <FaInstagram color="white" />
               </Link>
             </div>
-            <Link to="" className="flex items-center space-x-3">
+            <Link
+              to="mailto:oluwasuyitimilehin@gmail.com?subject=Contact from Portfolio&body=Hello Timilehin,"
+              className="flex items-center space-x-3"
+            >
               <MdOutlineMail color="white" fontSize={25} />
-              <a href="mailto:oluwasuyitimilehin@gmail.com?subject=Contact from Portfolio&body=Hello Timilehin,">
-                oluwasuyitimilehin@gmail.com
-              </a>
+              <p>oluwasuyitimilehin@gmail.com</p>
             </Link>
             <p className="text-white">2024 - Oluwasuyi Timilehin</p>
           </div>

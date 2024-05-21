@@ -6,7 +6,7 @@ const Homeproject = () => {
   return (
     <>
       <div className="bg-primary py-10 text-white lg:py-20">
-        <div className="container mx-auto space-y-10 px-4 lg:space-y-24">
+        <div className="container mx-auto space-y-20 px-4 lg:space-y-24">
           <div className="flex flex-col space-y-1">
             <p className="text-white text-sm font-medium">MY PROJECT</p>
             <p className="text-2xl font-semibold lg:text-3xl">
