@@ -5,8 +5,10 @@ import Whatsappbutton from "../Components/Whatsappbutton";
 const Homepage = () => {
   return (
     <>
+      
       <Navbar />
-      <Whatsappbutton/>
+      <Whatsappbutton />
+      
     </>
   );
 };

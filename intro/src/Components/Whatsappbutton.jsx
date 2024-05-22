@@ -2,6 +2,7 @@ import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+
 const Whatsappbutton = () => {
   const phoneNumber = "+2347061403565";
   const message = encodeURIComponent(
