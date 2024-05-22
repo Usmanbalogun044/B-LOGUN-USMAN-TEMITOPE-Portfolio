@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
 
+
 const Footer = () => {
   return (
     <>
@@ -48,5 +49,6 @@ const Footer = () => {
     </>
   );
 };
+
 
 export default Footer;
