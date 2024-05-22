@@ -23,13 +23,13 @@ const Homeskill = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
                 ducimus nobis fuga quibusdam, quaerat mollitia voluptatum,
                 maxime quidem dolor aperiam, repellendus similique. Labore
-                deleniti similique doloremque alias, vel expedita temporibus.
+                deleniti similique doloremque alias, vel expedita temporibus
               </p>
               <p className="tracking-wide">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Possimus magnam explicabo ex nemo mollitia officiis, modi
                 voluptates hic, doloremque nostrum voluptate. Laudantium, beatae
-                expedita dolor reiciendis quam porro cumque odio.
+                expedita dolor reiciendis quam porro cumque odio
               </p>
             </div>
           </div>
