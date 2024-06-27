@@ -4,46 +4,48 @@ import { FaYoutube } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
+import { Link } from "react-router-dom";
+
+
 const Hero = () => {
   return (
     <>
-      <div className="bg-primary py-10 lg:py-20 lg:h-screen lg:flex lg:items-center">
-        <div className="flex justify-between flex-col items-center container mx-auto px-3 lg:flex-row lg:px-7">
-          <div className="flex flex-col space-y-10 w-full lg:space-y-8 lg:w-1/2">
-            <div className="space-y-2 flex flex-col">
-              <p className="text-white text-sm leading-[35px] font-semibold lg:text-lg">
+
+      <div className="bg-primary py-10 h-screen lg:flex lg:items-center">
+        <div className="flex justify-between space-y-20 flex-col items-center container mx-auto px-4 lg:flex-row lg:px-7">
+          <div className="flex flex-col space-y-5 w-full lg:w-1/2">
+            <div className="space-y-1 flex flex-col">
+              <p className="text-white text-sm leading-[35px] font-semibold lg:text-xl">
                 Hello, I'm{" "}
-                <span className="text-secondary">Oluwasuyi Timilehin</span>
               </p>
 
-              <p className="text-white text-xl font-semibold lg:text-3xl">
-                I'm a <span className="text-secondary">Frontend Developer</span>
+              <p className="text-white text-3xl font-semibold lg:text-5xl">
+                Oluwasuyi Timilehin
               </p>
             </div>
-            <p className="text-white opacity-100 ">
-              I'm from Nigeria and i have been working as a frontend developer
-              for more than 3 years. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Doloremque tempora a adipisci? Labore expedita
-              totam laudantium aperiam veritatis velit? Doloribus quia numquam
-              natus quidem ullam omnis quas commodi provident molestias?
+            <p className="text-grey tracking-wide opacity-100 lg:text-xl">
+              A passionate
+              <span className="text-secondary"> Frontend Web Developer </span>
+              with 3 years experience creating user friendly websites.
             </p>
-            <div className="flex space-x-3 text-xl text-white lg:text-2xl">
-              <button className="">
+            <div className="flex space-x-4 text-xl text-white lg:text-2xl">
+              <Link to="" className="">
                 <FaLinkedin className="" />
-              </button>
-              <button className="">
+              </Link>
+              <Link to="https://twitter.com/OluwasuyiOlumi3" className="">
                 <FaTwitter className="" />
-              </button>
+              </Link>
               <button className="">
                 <FaYoutube className="" />
               </button>
-              <button className="">
+              <Link to="https://www.instagram.com/dxrkfacee/" className="">
                 <FaInstagram className="" />
-              </button>
+              </Link>
             </div>
           </div>
-          <div className="hidden mx-auto lg:flex bg-white h-80 border border-gray-300 rounded-lg">
-            <img className="w-full rounded-lg" src="./src/Images/spider.JPG" />
+          <div className="">
+            <img className="" src="./src/Images/web.png" />
+
           </div>
         </div>
       </div>
