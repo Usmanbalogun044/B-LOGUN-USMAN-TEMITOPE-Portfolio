@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <>
 
-      <div className="bg-primary py-10 h-screen lg:flex lg:items-center">
+      <div className="bg-primary py-10 lg:flex lg:items-center">
         <div className="flex justify-between space-y-20 flex-col items-center container mx-auto px-4 lg:flex-row lg:px-7">
           <div className="flex flex-col space-y-5 w-full lg:w-1/2">
             <div className="space-y-1 flex flex-col">
@@ -43,8 +43,8 @@ const Hero = () => {
               </Link>
             </div>
           </div>
-          <div className="">
-            <img className="" src="./src/Images/web.png" />
+          <div className="lg:w-1/2">
+            <img className="mx-auto" src="./src/Images/web.png" />
 
           </div>
         </div>

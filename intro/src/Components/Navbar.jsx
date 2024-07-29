@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-primary py-3 text-white w-full sticky top-0 z-50 lg:py-2">
+      <nav className="bg-primary py-3 text-white w-full sticky top-0 z-50">
         <div className="flex items-center px-3 container mx-auto justify-between">
           <RouterLink to="/" className="text-2xl text-secondary">
             <FaCode />
@@ -71,7 +71,7 @@ const Navbar = () => {
             <a
               href="/resume.pdf"
               download
-              className="border p-1.5 border-secondary rounded-md transition-all duration-500 hover:bg-secondary"
+              className="border py-1.5 px-3 border-secondary rounded-md transition-all duration-500 hover:bg-secondary"
             >
               Resume
             </a>
