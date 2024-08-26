@@ -45,7 +45,8 @@ const Footer = () => {
               <span className="text-sm">oluwasuyitimilehin@gmail.com</span>
             </Link>
             <p className="mt-4 text-sm">
-              &copy; 2024 Oluwasuyi Timilehin. All rights reserved.
+              &copy; <script>document.write(new Date().getFullYear())</script>{" "}
+              Oluwasuyi Timilehin. All rights reserved.
             </p>
           </div>
         </div>
