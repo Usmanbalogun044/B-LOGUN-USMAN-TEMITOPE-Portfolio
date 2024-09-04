@@ -17,7 +17,12 @@ const Homeabout = () => {
             <div className="border border-grey bg-primary w-60 py-3 space-y-1 px-4 text-white text-center rounded-md ">
               <p>Oluwasuyi Timilehin</p>
               <div className="flex justify-center px-4 space-x-3">
-                
+                <Link
+                  to="https://github.com/Oluwasuyi-Timilehin"
+                  className="text-xl"
+                >
+                  <FaGithub color="white" />
+                </Link>
                 <Link
                   to="https://twitter.com/OluwasuyiOlumi3"
                   className="text-xl"
