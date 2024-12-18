@@ -69,7 +69,7 @@ const Navbar = () => {
               CONTACT
             </ScrollLink>
             <a
-              href="/resume.pdf"
+              href="/Resume.pdf"
               download
               className="border py-1.5 px-3 border-secondary rounded-md transition-all duration-500 hover:bg-secondary"
             >
