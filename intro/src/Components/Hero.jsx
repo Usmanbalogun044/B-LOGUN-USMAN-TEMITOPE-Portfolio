@@ -12,7 +12,7 @@ const Hero = () => {
     <>
 
       <div className="bg-primary py-10 lg:flex lg:items-center">
-        <div className="flex justify-between space-y-20 flex-col items-center container mx-auto px-4 lg:flex-row lg:px-7">
+        <div className="flex justify-center space-y-20 flex-col items-center container h-screen mx-auto px-4 lg:justify-between lg:flex-row lg:px-7">
           <div className="flex flex-col space-y-5 w-full lg:w-1/2">
             <div className="space-y-1 flex flex-col">
               <p className="text-white text-sm leading-[35px] font-semibold lg:text-xl">
