@@ -81,7 +81,7 @@ const Homeproject = () => {
                   <div className="bg-secondary font-medium px-3 py-1 rounded-md">
                     Tailwind
                   </div>
-                  <div className="bg-secondary font-medium px-3 py-1 rounded-md">
+                  <div className="bg-secondary font-medium px-3 py-1 rounded-md" >
                     Javascript
                   </div>
                 </div>

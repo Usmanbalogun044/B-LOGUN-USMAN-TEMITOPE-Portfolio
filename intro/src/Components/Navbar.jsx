@@ -138,7 +138,7 @@ const Navbar = () => {
             </ScrollLink>
           </div>
           <a
-            href="/resume.pdf"
+            href="/Resume.pdf"
             download
             className="border p-3 text-xl font-semibold border-secondary rounded-md transition-all duration-500 hover:bg-secondary"
           >
