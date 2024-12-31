@@ -10,8 +10,8 @@ const Homeabout = () => {
         <div className="container mx-auto py-20 px-4 items-center justify-center flex flex-col space-y-5 lg:px-7 lg:space-x-10 lg:flex-row">
           <div className="flex flex-col items-center justify-center -space-y-5 lg:w-1/4">
             <img
-              className="rounded-full object-cover h-40 w-40"
-              src="./src/Images/spidey.JPG"
+              className="rounded-full object-cover h-52 w-52"
+              src="./src/Images/spidey.webp"
               alt=""
             />
             <div className="border border-grey bg-primary w-60 py-3 space-y-1 px-4 text-white text-center rounded-md ">
