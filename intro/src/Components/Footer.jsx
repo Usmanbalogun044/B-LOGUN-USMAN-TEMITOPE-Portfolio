@@ -16,7 +16,7 @@ const Footer = () => {
               something amazing together!
             </p>
           </div>
-          <div className="flex space-x-6 mb-6 md:mb-0">
+          <div className="flex space-x-5 mb-6 md:mb-0">
             <Link
               to="https://github.com/Oluwasuyi-Timilehin"
               aria-label="GitHub"

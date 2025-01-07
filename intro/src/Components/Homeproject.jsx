@@ -41,7 +41,7 @@ const Homeproject = () => {
                     Tailwind css
                   </div>
                 </div>
-                <p className="text-white tracking-wide">
+                <p className="text-white tracking-wide text-justify">
                   This movie app allows users to discover new films
                   effortlessly, featuring a search function and a curated list
                   of the top 20 movies. It offers an easy and enjoyable way to
@@ -81,11 +81,11 @@ const Homeproject = () => {
                   <div className="bg-secondary font-medium px-3 py-1 rounded-md">
                     Tailwind
                   </div>
-                  <div className="bg-secondary font-medium px-3 py-1 rounded-md" >
+                  <div className="bg-secondary font-medium px-3 py-1 rounded-md">
                     Javascript
                   </div>
                 </div>
-                <p className="text-white tracking-wide">
+                <p className="text-white tracking-wide text-justify">
                   Fast Care is an application designed for emergency situations,
                   enabling users to quickly contact medical units. It ensures
                   swift and efficient access to emergency medical assistance.

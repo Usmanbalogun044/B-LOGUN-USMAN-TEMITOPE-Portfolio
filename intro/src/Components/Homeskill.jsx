@@ -19,7 +19,7 @@ const Homeskill = () => {
                 What <span className="text-secondary">i can do</span>
               </p>
             </div>
-            <div className="space-y-3">
+            <div className="space-y-3 text-justify">
               <p className="tracking-wide">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
                 ducimus nobis fuga quibusdam, quaerat mollitia voluptatum,

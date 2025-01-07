@@ -8,9 +8,9 @@ const Homeabout = () => {
     <>
       <div className="bg-primary">
         <div className="container mx-auto py-20 px-4 items-center justify-center flex flex-col space-y-5 lg:px-7 lg:space-x-10 lg:flex-row">
-          <div className="flex flex-col items-center justify-center -space-y-5 lg:w-1/4">
+          <div className="flex flex-col items-center justify-center -space-y-5 lg:w-2/4 xl:w-1/4">
             <img
-              className="rounded-full object-cover h-52 w-52"
+              className="rounded-full object-cover h-80 w-80"
               src="./src/Images/spidey.webp"
               alt=""
             />
@@ -44,14 +44,14 @@ const Homeabout = () => {
           <div className="flex flex-col py-10 space-y-4 lg:w-2/3">
             <div className="space-y-1 text-center flex flex-col">
               <p className="text-white font-medium text-sm">ABOUT ME</p>
-              <span className="text-secondary font-semibold tracking-widest lg:tracking-wide  text-xl lg:text-3xl">
+              <span className="text-secondary font-semibold tracking-widest lg:tracking-wide text-xl lg:text-3xl">
                 Transforming visions into exceptional portfolio
               </span>
             </div>
-            <p className="text-white tracking-wide">
+            <p className="text-white tracking-wide text-justify">
               Hello and welcome to my portfolio! I'm Oluwasuyi Timilehin, a
               Frontend developer who is passionate about creating
-              beautiful,interactive,responsive and user-friendly websites. I
+              beautiful, interactive, responsive and user-friendly websites. I
               enjoy researching new design trends and technolgies as a creative
               problem solver. Thank you for visiting my portfolio! Please feel
               free to browse through my projects.
