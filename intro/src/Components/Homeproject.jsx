@@ -1,8 +1,8 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { fastImg } from "/Images/fastcare.png";
-import { spiderImg } from "/Images/spider.png";
+import fastImg from "/Images/fastcare.png";
+import spiderImg from "/Images/spider.png";
 
 const Homeproject = () => {
   return (

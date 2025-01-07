@@ -2,7 +2,7 @@ import React from "react";
 import { FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import { spiderImg } from "/Images/spidey.webp";
+import spiderImg from "/Images/spidey.webp";
 
 const Homeabout = () => {
   return (
