@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
 
-import webImage from "/src/Images/web.png";
+import webImage from "/Images/web.png";
 
 
 const Hero = () => {
