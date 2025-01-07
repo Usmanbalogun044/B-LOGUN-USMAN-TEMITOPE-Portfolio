@@ -6,6 +6,8 @@ import { FaLinkedin } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
 
+import webImage from "./src/Images/web.png";
+
 
 const Hero = () => {
   return (
@@ -44,7 +46,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="lg:w-1/2">
-            <img className="mx-auto" src="Images/web.png" />
+            <img className="mx-auto" src={webImage} />
 
           </div>
         </div>
