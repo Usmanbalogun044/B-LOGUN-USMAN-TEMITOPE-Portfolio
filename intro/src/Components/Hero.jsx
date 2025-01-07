@@ -20,25 +20,26 @@ const Hero = () => {
               </p>
 
               <p className="text-white text-3xl font-semibold lg:text-5xl">
-                Oluwasuyi Timilehin
+                Balogun Usman Temitope
               </p>
             </div>
             <p className="text-grey tracking-wide opacity-100 lg:text-xl">
-              A passionate
-              <span className="text-secondary"> Frontend Web Developer </span>
-              with 3 years experience creating user friendly websites.
-            </p>
+  A passionate
+  <span className="text-secondary"> Backend Web Developer </span>
+  with 3 years of experience building robust, scalable, and efficient server-side applications.
+</p>
+
             <div className="flex space-x-4 text-xl text-white lg:text-2xl">
-              <Link to="" className="">
+              <Link to="https://www.linkedin.com/in/balogun-usman-5a5176272/" className="">
                 <FaLinkedin className="" />
               </Link>
-              <Link to="https://twitter.com/OluwasuyiOlumi3" className="">
+              <Link to="https://twitter.com/temitop02038232" className="">
                 <FaTwitter className="" />
               </Link>
               <button className="">
                 <FaYoutube className="" />
               </button>
-              <Link to="https://www.instagram.com/dxrkfacee/" className="">
+              <Link to="https://www.instagram.com/dollarhunter044" className="">
                 <FaInstagram className="" />
               </Link>
             </div>

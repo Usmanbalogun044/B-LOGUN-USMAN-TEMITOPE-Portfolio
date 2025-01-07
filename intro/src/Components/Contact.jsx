@@ -20,7 +20,7 @@ const Contact = () => {
             open. Whether you have a question, want to collaborate on a project
             or just want to say hi, I'll definitely get back to you!
           </p>
-          <Link to="mailto:oluwasuyitimilehin@gmail.com?subject=Contact from Portfolio&body=Hello Timilehin,">
+          <Link to="mailto:usmanbalogun044@gmail.com?subject=Contact from Portfolio&body=Hello Usman,">
             <button className="border border-secondary rounded-md hover:bg-secondary transition-all duration-500 p-2 text-xl font-semibold w-40">
               Say Hello
             </button>

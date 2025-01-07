@@ -11,29 +11,29 @@ const Homeabout = () => {
           <div className="flex flex-col items-center justify-center -space-y-5 lg:w-1/4">
             <img
               className="rounded-full object-cover h-52 w-52"
-              src="./src/Images/spidey.webp"
+              src="./src/Images/usman.jpg"
               alt=""
             />
             <div className="border border-grey bg-primary w-60 py-3 space-y-1 px-4 text-white text-center rounded-md ">
-              <p>Oluwasuyi Timilehin</p>
+              <p>Balogun Usman Temitope</p>
               <div className="flex justify-center px-4 space-x-3">
                 <Link
-                  to="https://github.com/Oluwasuyi-Timilehin"
+                  to="https://github.com/Usmanbalogun044"
                   className="text-xl"
                 >
                   <FaGithub color="white" />
                 </Link>
                 <Link
-                  to="https://twitter.com/OluwasuyiOlumi3"
+                  to="https://twitter.com/temitop02038232"
                   className="text-xl"
                 >
                   <FaTwitter color="white" />
                 </Link>
-                <Link to="" className="text-xl">
+                <Link to="https://www.linkedin.com/in/balogun-usman-5a5176272/" className="text-xl">
                   <FaLinkedin color="white" />
                 </Link>
                 <Link
-                  to="https://www.instagram.com/dxrkfacee/"
+                  to="https://www.instagram.com/dolarhunter044"
                   className="text-xl"
                 >
                   <FaInstagram color="white" />
@@ -44,17 +44,17 @@ const Homeabout = () => {
           <div className="flex flex-col py-10 space-y-4 lg:w-2/3">
             <div className="space-y-1 text-center flex flex-col">
               <p className="text-white font-medium text-sm">ABOUT ME</p>
-              <span className="text-secondary font-semibold tracking-widest lg:tracking-wide  text-xl lg:text-3xl">
-                Transforming visions into exceptional portfolio
+              <span className="text-secondary font-semibold tracking-widest lg:tracking-wide text-xl lg:text-3xl">
+                Empowering ideas with robust backend solutions
               </span>
             </div>
             <p className="text-white tracking-wide">
-              Hello and welcome to my portfolio! I'm Oluwasuyi Timilehin, a
-              Frontend developer who is passionate about creating
-              beautiful,interactive,responsive and user-friendly websites. I
-              enjoy researching new design trends and technolgies as a creative
-              problem solver. Thank you for visiting my portfolio! Please feel
-              free to browse through my projects.
+              Hello and welcome to my portfolio! I'm Balogun Usman Temitope, a 
+              Backend Developer dedicated to building scalable, secure, and efficient 
+              server-side applications. I specialize in crafting APIs, optimizing databases, 
+              and ensuring seamless functionality for web applications. I enjoy solving complex 
+              challenges and staying updated with the latest backend technologies. 
+              Thank you for visiting my portfolio! Please feel free to explore my projects.
             </p>
           </div>
         </div>

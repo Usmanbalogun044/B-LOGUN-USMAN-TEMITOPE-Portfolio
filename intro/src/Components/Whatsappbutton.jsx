@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 const Whatsappbutton = () => {
-  const phoneNumber = "+2347061403565";
+  const phoneNumber = "+2347044060102";
   const message = encodeURIComponent(
     "Hi there! I found your portfolio and would like to connect."
   );
