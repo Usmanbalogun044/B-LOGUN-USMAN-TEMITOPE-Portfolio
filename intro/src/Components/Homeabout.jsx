@@ -2,6 +2,7 @@ import React from "react";
 import { FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import { spiderImg } from "/Images/spidey.webp";
 
 const Homeabout = () => {
   return (
@@ -11,7 +12,7 @@ const Homeabout = () => {
           <div className="flex flex-col items-center justify-center -space-y-5 lg:w-2/4 xl:w-1/4">
             <img
               className="rounded-full object-cover h-80 w-80"
-              src="./src/Images/spidey.webp"
+              src={spiderImg}
               alt=""
             />
             <div className="border border-grey bg-primary w-60 py-3 space-y-1 px-4 text-white text-center rounded-md ">

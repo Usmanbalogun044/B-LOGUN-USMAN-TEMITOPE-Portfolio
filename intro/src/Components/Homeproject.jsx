@@ -1,6 +1,8 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { fastImg } from "/Images/fastcare.png";
+import { spiderImg } from "/Images/spider.png";
 
 const Homeproject = () => {
   return (
@@ -51,7 +53,7 @@ const Homeproject = () => {
             </div>
 
             <img
-              src="./src/Images/spider.png"
+              src={spiderImg}
               className="rounded-sm mx-auto w-full h-40 lg:h-60 lg:w-1/2 object-cover"
             />
           </div>
@@ -94,7 +96,7 @@ const Homeproject = () => {
             </div>
 
             <img
-              src="./src/Images/fastcare.png"
+              src={fastImg}
               className="rounded-sm mx-auto w-full h-40 lg:h-60 lg:w-1/2 object-cover"
             />
           </div>
