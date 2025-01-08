@@ -45,7 +45,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="lg:w-1/2">
-            <img className="mx-auto" src="./src/Images/web.png" />
+            <img className="mx-auto" src="/web.png" />
 
           </div>
         </div>

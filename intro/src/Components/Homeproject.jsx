@@ -51,7 +51,7 @@ const Homeproject = () => {
             </div>
 
             <img
-              src="./src/Images/spider.png"
+              src="/spider.png"
               className="rounded-sm mx-auto w-full h-40 lg:h-60 lg:w-1/2 object-cover"
             />
           </div>
@@ -94,7 +94,7 @@ const Homeproject = () => {
             </div>
 
             <img
-              src="./src/Images/fastcare.png"
+              src="/fastcare.png"
               className="rounded-sm mx-auto w-full h-40 lg:h-60 lg:w-1/2 object-cover"
             />
           </div>
