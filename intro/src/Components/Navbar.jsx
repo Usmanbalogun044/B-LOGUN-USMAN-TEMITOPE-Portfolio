@@ -90,7 +90,7 @@ const Navbar = () => {
           open ? "block" : "hidden"
         } bg-primary text-white top-12 w-full flex justify-center items-center z-40 lg:hidden h-screen`}
       >
-        <div className="flex flex-col items-center space-y-20">
+        <div className="flex flex-col items-center space-y-16">
           <div className="flex flex-col items-center space-y-16">
             <ScrollLink
               to="about"
