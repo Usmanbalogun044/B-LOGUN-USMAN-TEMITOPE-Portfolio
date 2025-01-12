@@ -22,7 +22,7 @@ const Hero = () => {
               </p>
 
               <p className="text-white text-3xl font-semibold lg:text-5xl">
-                Oluwasuyi Oluwatimilehin
+                Oluwasuyi Timilehin
               </p>
             </div>
             <p className="text-grey tracking-wide opacity-100 lg:text-xl">
