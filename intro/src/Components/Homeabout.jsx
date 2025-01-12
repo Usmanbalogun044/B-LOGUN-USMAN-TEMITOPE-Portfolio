@@ -30,7 +30,10 @@ const Homeabout = () => {
                 >
                   <FaTwitter color="white" />
                 </Link>
-                <Link to="" className="text-xl">
+                <Link
+                  to="https://www.linkedin.com/in/oluwasuyi-oluwatimilehin-b474b629a"
+                  className="text-xl"
+                >
                   <FaLinkedin color="white" />
                 </Link>
                 <Link
@@ -51,9 +54,9 @@ const Homeabout = () => {
             </div>
             <p className="text-white tracking-wide text-justify">
               Hello and welcome to my portfolio! I'm Oluwasuyi Timilehin, a
-              Frontend developer who is passionate about creating
-              beautiful, interactive, responsive and user-friendly websites. I
-              enjoy researching new design trends and technolgies as a creative
+              Frontend developer who is passionate about creating beautiful,
+              interactive, responsive and user-friendly websites. I enjoy
+              researching new design trends and technolgies as a creative
               problem solver. Thank you for visiting my portfolio! Please feel
               free to browse through my projects.
             </p>

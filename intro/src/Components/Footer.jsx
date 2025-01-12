@@ -26,7 +26,10 @@ const Footer = () => {
             <Link to="https://twitter.com/OluwasuyiOlumi3" aria-label="Twitter">
               <FaTwitter className="text-xl hover:text-secondary transition-colors duration-300" />
             </Link>
-            <Link to="" aria-label="LinkedIn">
+            <Link
+              to="https://www.linkedin.com/in/oluwasuyi-oluwatimilehin-b474b629a"
+              aria-label="LinkedIn"
+            >
               <FaLinkedin className="text-xl hover:text-secondary transition-colors duration-300" />
             </Link>
             <Link
