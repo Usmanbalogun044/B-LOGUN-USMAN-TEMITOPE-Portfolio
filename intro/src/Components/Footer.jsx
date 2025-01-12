@@ -104,7 +104,7 @@ const Footer = () => {
           </div>
           <div className="md:w-4/12 mb-10">
             <div className="flex flex-col p-5 space-y-4 bg-slate-700 rounded-md">
-              <h2 className="font-semibold">Get in Touch</h2>
+              <h2 className="font-semibold text-slate-300 text-lg">Get in Touch</h2>
               <p className="text-sm">
                 Have a project in mind? Let's discuss how we can work together
                 to bring your ideas to life.

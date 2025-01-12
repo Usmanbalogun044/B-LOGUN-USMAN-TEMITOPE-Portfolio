@@ -21,16 +21,18 @@ const Homeskill = () => {
             </div>
             <div className="space-y-3 text-justify">
               <p className="tracking-wide">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-                ducimus nobis fuga quibusdam, quaerat mollitia voluptatum,
-                maxime quidem dolor aperiam, repellendus similique. Labore
-                deleniti similique doloremque alias, vel expedita temporibus
+                With a strong foundation in web development, I have the ability
+                to create dynamic and visually appealing web applications. My
+                skills span across HTML, CSS, JavaScript, and frameworks like
+                React.js, allowing me to bring interactive and responsive
+                designs to life.
               </p>
               <p className="tracking-wide">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus magnam explicabo ex nemo mollitia officiis, modi
-                voluptates hic, doloremque nostrum voluptate. Laudantium, beatae
-                expedita dolor reiciendis quam porro cumque odio
+                Leveraging Tailwind CSS, I can efficiently style and customize
+                user interfaces while maintaining clean and maintainable code.
+                My experience with GitHub ensures seamless version control and
+                collaboration, making teamwork and project management smooth and
+                efficient.
               </p>
             </div>
           </div>
