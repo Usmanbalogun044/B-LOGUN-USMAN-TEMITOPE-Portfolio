@@ -19,7 +19,7 @@ const Homeskill = () => {
                 What <span className="text-secondary">i can do</span>
               </p>
             </div>
-            <div className="space-y-3 text-justify">
+            <div className="space-y-3 text-white text-left lg:text-justify leading-relaxed">
               <p className="tracking-wide">
                 With a strong foundation in web development, I have the ability
                 to create dynamic and visually appealing web applications. My

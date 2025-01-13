@@ -52,11 +52,11 @@ const Homeabout = () => {
                 Transforming visions into exceptional portfolio
               </span>
             </div>
-            <p className="text-white tracking-wide text-justify">
+            <p className="text-white text-left lg:text-justify leading-relaxed">
               Hello and welcome to my portfolio! I'm Oluwasuyi Timilehin, a
               Frontend developer who is passionate about creating beautiful,
               interactive, responsive and user-friendly websites. I enjoy
-              researching new design trends and technolgies as a creative
+              researching new design trends and technologies as a creative
               problem solver. Thank you for visiting my portfolio! Please feel
               free to browse through my projects.
             </p>
