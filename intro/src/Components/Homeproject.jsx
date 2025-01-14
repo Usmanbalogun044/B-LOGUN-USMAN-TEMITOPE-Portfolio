@@ -54,7 +54,7 @@ const Homeproject = () => {
 
             <img
               src={spiderImg}
-              className="rounded-sm mx-auto w-full h-40 lg:h-60 lg:w-1/2 object-cover"
+              className="rounded-sm mx-auto w-full h-40 lg:h-80 lg:w-1/2 object-cover"
             />
           </div>
           <div className="flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-20 lg:items-center">
@@ -97,7 +97,7 @@ const Homeproject = () => {
 
             <img
               src={fastImg}
-              className="rounded-sm mx-auto w-full h-40 lg:h-60 lg:w-1/2 object-cover"
+              className="rounded-sm mx-auto w-full h-40 lg:h-80 lg:w-1/2 object-cover"
             />
           </div>
         </div>
