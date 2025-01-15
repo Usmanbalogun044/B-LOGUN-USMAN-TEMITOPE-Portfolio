@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import fastImg from "/Images/fastcare.png";
-import spiderImg from "/Images/spider.png";
+import spiderImg from "/Images/movieapp.png";
 
 const Homeproject = () => {
   return (
@@ -26,7 +26,7 @@ const Homeproject = () => {
                     </p>
                     <Link
                       className="text-xl"
-                      to="https://github.com/Oluwasuyi-Timilehin/Movatti"
+                      to="https://github.com/Oluwasuyi-Timilehin/Movieapp"
                     >
                       <FaGithub />
                     </Link>
