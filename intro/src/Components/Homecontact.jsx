@@ -3,10 +3,10 @@ import React from "react";
 const Homecontact = () => {
   return (
     <>
-      <div className="bg-primary py-10 text-white lg:py-20">
+      <div className="bg-white dark:bg-primary py-10 text-primary dark:text-white lg:py-20">
         <div className="flex flex-col text-center px-4 space-y-5 lg:justify-center lg:items-center">
           <div className="space-y-4">
-            <p className="text-white font-medium">MY CONTACT</p>
+            <p className="text-primary dark:text-white font-medium">MY CONTACT</p>
             <p className="font-semibold text-3xl text-white lg:text-4xl">
               Contact <span className="text-secondary">Me Here</span>
             </p>
