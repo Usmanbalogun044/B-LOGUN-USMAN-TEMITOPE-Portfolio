@@ -7,12 +7,10 @@ import spiderImg from "/Images/movieapp.png";
 const Homeproject = () => {
   return (
     <>
-      <div className="bg-white dark:bg-primary py-10 text-primary dark:text-white lg:py-20">
+      <div className="bg-primary py-10 text-white lg:py-20">
         <div className="container mx-auto space-y-20 px-4 lg:space-y-24">
           <div className="flex flex-col space-y-1">
-            <p className="text-primary dark:text-white text-sm font-medium">
-              MY PROJECT
-            </p>
+            <p className="text-white text-sm font-medium">MY PROJECT</p>
             <p className="text-2xl font-semibold lg:text-3xl">
               What <span className="text-secondary">i have built</span>
             </p>
@@ -20,7 +18,7 @@ const Homeproject = () => {
 
           <div className="flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-20 lg:items-center">
             <div className="flex flex-col lg:w-1/2">
-              <div className="space-y-4 flex flex-col lg:space-y-6 rounded-xl px-3 py-7 bg-slate-200 dark:bg-slate-700 lg:px-5">
+              <div className="space-y-4 flex flex-col lg:space-y-6 rounded-xl px-3 py-7 bg-slate-700 lg:px-5">
                 <div className="flex flex-col">
                   <div className="flex items-center space-x-3">
                     <p className="text-secondary text-3xl font-bold">
@@ -33,7 +31,7 @@ const Homeproject = () => {
                       <FaGithub />
                     </Link>
                   </div>
-                  <p className="text-slate-500 dark:text-slate-300 font-semibold text-xl">
+                  <p className="text-slate-300 font-semibold text-xl">
                     Personal Project
                   </p>
                 </div>
@@ -45,7 +43,7 @@ const Homeproject = () => {
                     Tailwind css
                   </div>
                 </div>
-                <p className="text-primary dark:text-white text-left lg:text-justify leading-relaxed">
+                <p className="text-white text-left lg:text-justify leading-relaxed">
                   This movie app allows users to discover new films
                   effortlessly, featuring a search function and a curated list
                   of the top 20 movies. It offers an easy and enjoyable way to
@@ -61,7 +59,7 @@ const Homeproject = () => {
           </div>
           <div className="flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-20 lg:items-center">
             <div className="flex items-center lg:w-1/2">
-              <div className="space-y-4 flex flex-col lg:space-y-6 rounded-xl px-3 py-7 bg-slate-200 dark:bg-slate-700 lg:px-5">
+              <div className="space-y-4 flex flex-col lg:space-y-6 rounded-xl px-3 py-7 bg-slate-700 lg:px-5">
                 <div className="flex flex-col">
                   <div className="flex items-center space-x-3">
                     <p className="text-secondary text-3xl font-bold">
@@ -74,7 +72,7 @@ const Homeproject = () => {
                       <FaGithub />
                     </Link>
                   </div>
-                  <p className="text-slate-500 dark:text-slate-300 font-semibold text-xl">
+                  <p className="text-slate-300 font-semibold text-xl">
                     Personal Project
                   </p>
                 </div>
@@ -89,7 +87,7 @@ const Homeproject = () => {
                     Javascript
                   </div>
                 </div>
-                <p className="text-primary dark:text-white text-left lg:text-justify leading-relaxed">
+                <p className="text-white text-left lg:text-justify leading-relaxed">
                   Fast Care is an application designed for emergency situations,
                   enabling users to quickly contact medical units. It ensures
                   swift and efficient access to emergency medical assistance.

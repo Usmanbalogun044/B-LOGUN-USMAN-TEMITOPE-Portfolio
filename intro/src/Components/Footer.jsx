@@ -12,7 +12,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-white dark:bg-primary text-primary dark:text-white py-10">
+    <footer className="bg-primary text-white py-10">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row md:space-x-5 justify-between items-start">
           <div className="flex flex-col md:w-4/12 lg:space-y-5 mb-10">
@@ -103,10 +103,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="md:w-4/12 mb-10">
-            <div className="flex flex-col p-5 space-y-4 bg-slate-200 dark:bg-slate-700 rounded-md">
-              <h2 className="font-semibold text-slate-500 dark:text-slate-300 text-lg">
-                Get in Touch
-              </h2>
+            <div className="flex flex-col p-5 space-y-4 bg-slate-700 rounded-md">
+              <h2 className="font-semibold text-slate-300 text-lg">Get in Touch</h2>
               <p className="text-sm">
                 Have a project in mind? Let's discuss how we can work together
                 to bring your ideas to life.
@@ -121,7 +119,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="border-t border-gray-300 dark:border-gray-600 py-5 text-sm">
+        <p className="border-t border-gray-600 py-5 text-sm">
           &copy; {new Date().getFullYear()} Oluwasuyi Timilehin. All rights
           reserved.
         </p>
