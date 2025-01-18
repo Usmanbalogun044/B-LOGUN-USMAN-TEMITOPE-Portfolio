@@ -33,16 +33,16 @@ const Hero = () => {
                 to="https://www.linkedin.com/in/oluwasuyi-oluwatimilehin-b474b629a"
                 className=""
               >
-                <FaLinkedin className="" />
+                <FaLinkedin className="text-primary dark:text-white" />
               </Link>
               <Link to="https://twitter.com/OluwasuyiOlumi3" className="">
-                <FaTwitter className="" />
+                <FaTwitter className="text-primary dark:text-white" />
               </Link>
               <button className="">
-                <FaYoutube className="" />
+                <FaYoutube className="text-primary dark:text-white" />
               </button>
               <Link to="https://www.instagram.com/dxrkfacee/" className="">
-                <FaInstagram className="" />
+                <FaInstagram className="text-primary dark:text-white" />
               </Link>
             </div>
           </div>
