@@ -3,7 +3,6 @@ import { FaReact } from "react-icons/fa6";
 import { DiJavascript } from "react-icons/di";
 import { IoLogoCss3 } from "react-icons/io";
 import { SiTailwindcss } from "react-icons/si";
-
 import { FaHtml5 } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 
