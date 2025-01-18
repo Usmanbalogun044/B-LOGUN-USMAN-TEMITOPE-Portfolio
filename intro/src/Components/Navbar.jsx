@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-primary py-3 text-white w-full sticky top-0 z-50">
+      <nav className="bg-white dark:bg-primary py-3 text-primary dark:text-white w-full sticky top-0 z-50">
         <div className="flex items-center px-3 container mx-auto justify-between">
           <RouterLink to="/" className="text-2xl text-secondary">
             <FaCode />
@@ -33,7 +33,7 @@ const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="cursor-pointer"
+              className="cursor-pointer transition-all duration-500"
             >
               ABOUT
             </ScrollLink>
@@ -43,7 +43,7 @@ const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="cursor-pointer"
+              className="cursor-pointer transition-all duration-500"
             >
               SKILLS
             </ScrollLink>
@@ -53,7 +53,7 @@ const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="cursor-pointer"
+              className="cursor-pointer transition-all duration-500"
             >
               PROJECT
             </ScrollLink>
@@ -63,7 +63,7 @@ const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="cursor-pointer"
+              className="cursor-pointer transition-all duration-500"
               onClick={toggleMenu}
             >
               CONTACT
@@ -71,7 +71,7 @@ const Navbar = () => {
             <a
               href="/Resume.pdf"
               download
-              className="border py-1.5 px-3 border-secondary rounded-md transition-all duration-500 hover:bg-secondary"
+              className="border py-1.5 px-3 border-secondary rounded-md transition-all duration-500 hover:bg-secondary hover:text-white"
             >
               Resume
             </a>
@@ -88,7 +88,7 @@ const Navbar = () => {
       <div
         className={`fixed ${
           open ? "block" : "hidden"
-        } bg-primary text-white top-12 w-full flex justify-center items-center z-40 lg:hidden h-screen`}
+        } bg-white dark:bg-primary text-primary dark:text-white top-12 w-full flex justify-center items-center z-40 lg:hidden h-screen`}
       >
         <div className="flex flex-col items-center space-y-16">
           <div className="flex flex-col items-center space-y-16">
@@ -98,7 +98,7 @@ const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="cursor-pointer text-xl font-semibold"
+              className="cursor-pointer transition-all duration-500 text-xl font-semibold"
               onClick={toggleMenu}
             >
               ABOUT
@@ -109,7 +109,7 @@ const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="cursor-pointer text-xl font-semibold"
+              className="cursor-pointer transition-all duration-500 text-xl font-semibold"
               onClick={toggleMenu}
             >
               SKILLS
@@ -120,7 +120,7 @@ const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="cursor-pointer text-xl font-semibold"
+              className="cursor-pointer transition-all duration-500 text-xl font-semibold"
               onClick={toggleMenu}
             >
               PROJECT
@@ -131,7 +131,7 @@ const Navbar = () => {
               smooth={true}
               offset={-70}
               duration={500}
-              className="cursor-pointer text-xl font-semibold"
+              className="cursor-pointer transition-all duration-500 text-xl font-semibold"
               onClick={toggleMenu}
             >
               CONTACT
@@ -140,7 +140,7 @@ const Navbar = () => {
           <a
             href="/Resume.pdf"
             download
-            className="border p-3 text-xl font-semibold border-secondary rounded-md transition-all duration-500 hover:bg-secondary"
+            className="border p-3 text-xl font-semibold border-secondary rounded-md transition-all duration-500 hover:bg-secondary  hover:text-white"
           >
             Resume
           </a>
