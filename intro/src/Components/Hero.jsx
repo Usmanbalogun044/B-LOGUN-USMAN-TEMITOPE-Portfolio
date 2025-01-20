@@ -28,7 +28,7 @@ const Hero = () => {
               <span className="text-secondary"> Frontend Web Developer </span>
               with 3 years experience creating user friendly websites.
             </p>
-            <div className="flex space-x-4 text-xl text-white lg:text-2xl">
+            <div className="flex space-x-4 text-xl text-white ">
               <Link
                 to="https://www.linkedin.com/in/oluwasuyi-oluwatimilehin-b474b629a"
                 className=""
