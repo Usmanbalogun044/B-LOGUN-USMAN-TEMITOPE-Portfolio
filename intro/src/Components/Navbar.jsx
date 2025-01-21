@@ -89,7 +89,7 @@ const Navbar = () => {
               CONTACT
             </ScrollLink>
             <a
-              href="/Resume.pdf"
+              href="/Oluwasuyi OluwatimilehinCV.pdf"
               download
               className="border py-1.5 px-3 border-secondary rounded-md transition-all duration-500 hover:bg-secondary hover:text-white"
             >
