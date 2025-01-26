@@ -178,7 +178,7 @@ const Navbar = () => {
           CONTACT
         </ScrollLink>
         <a
-          href="/Resume.pdf"
+          href="/Oluwasuyi OluwatimilehinCV.pdf"
           download
           className="border p-3 text-xl font-semibold border-secondary rounded-md transition-all duration-500 hover:bg-secondary hover:text-white"
         >
