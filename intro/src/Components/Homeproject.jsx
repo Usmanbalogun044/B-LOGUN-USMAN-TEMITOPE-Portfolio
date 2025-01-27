@@ -24,7 +24,7 @@ const Homeproject = () => {
                 <div className="flex justify-between items-center">
                   <div className="flex flex-col">
                     <div className="flex items-center space-x-3">
-                      <p className="text-secondary text-2xl md:text-3xl font-bold">
+                      <p className="text-secondary text-3xl font-bold">
                         Movie App
                       </p>
                       <Link
@@ -34,18 +34,18 @@ const Homeproject = () => {
                         <FaGithub />
                       </Link>
                     </div>
-                    <p className="text-slate-500 dark:text-slate-300 font-semibold text-lg md:text-xl">
+                    <p className="text-slate-500 dark:text-slate-300 font-semibold text-xl">
                       Personal Project
                     </p>
                   </div>
-                  <div className="">
+                  <div className="hidden md:flex">
                     <Link
                       to="https://movieapp-fawn-one.vercel.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-secondary px-3 py-1 rounded-md font-medium"
                     >
-                      View Live Website
+                      View Live 
                     </Link>
                   </div>
                 </div>
@@ -63,6 +63,16 @@ const Homeproject = () => {
                   of the top 20 movies. It offers an easy and enjoyable way to
                   explore and expand your cinematic horizons.
                 </p>
+                <div className="flex md:hidden justify-end">
+                  <Link
+                    to="https://movieapp-fawn-one.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-secondary px-3 py-1 rounded-md text-center font-medium"
+                  >
+                    View Live 
+                  </Link>
+                </div>
               </div>
             </div>
 
@@ -77,7 +87,7 @@ const Homeproject = () => {
               <div className="space-y-4 flex flex-col lg:space-y-6 rounded-xl px-3 py-7 bg-slate-200 dark:bg-slate-700 lg:px-5">
                 <div className="flex flex-col">
                   <div className="flex items-center space-x-3">
-                    <p className="text-secondary text-2xl md:text-3xl font-bold">
+                    <p className="text-secondary text-3xl font-bold">
                       Fast Care
                     </p>
                     <Link
@@ -87,7 +97,7 @@ const Homeproject = () => {
                       <FaGithub />
                     </Link>
                   </div>
-                  <p className="text-slate-500 dark:text-slate-300 font-semibold text-lg md:text-xl">
+                  <p className="text-slate-500 dark:text-slate-300 font-semibold text-xl">
                     Personal Project
                   </p>
                 </div>
