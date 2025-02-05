@@ -14,8 +14,8 @@ const Footer = () => {
   return (
     <footer className="bg-white dark:bg-primary text-primary dark:text-white py-10">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row md:space-x-5 justify-between items-start">
-          <div className="flex flex-col md:w-4/12 lg:space-y-5 mb-10">
+        <div className="flex flex-col md:flex-row md:justify-between md:items-start md:space-x-10">
+          <div className="flex flex-col lg:space-y-5 mb-10">
             <div className=" md:text-left mb-6 md:mb-0 max-w-md">
               <h3 className="text-lg font-semibold mb-2">About Me</h3>
               <p className="text-sm">
@@ -52,9 +52,9 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col md:w-4/12 lg:space-y-4 mb-10">
+          <div className="flex flex-col lg:space-y-4 mb-10">
             <h2 className="text-lg font-semibold mb-2">Ouick Links</h2>
-            <div className="flex items-center space-x-32">
+            <div className="flex items-center space-x-20">
               <div className="flex flex-col space-y-3">
                 <ScrollLink
                   to="about"
@@ -102,7 +102,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-4/12 mb-10">
+          <div className="mb-10">
             <div className="flex flex-col p-5 space-y-4 bg-slate-200 dark:bg-slate-700 rounded-md">
               <h2 className="font-semibold text-slate-500 dark:text-slate-300 text-lg">
                 Get in Touch
