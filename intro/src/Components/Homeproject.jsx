@@ -45,7 +45,7 @@ const Homeproject = () => {
                       rel="noopener noreferrer"
                       className="bg-secondary px-3 py-1 rounded-md font-medium"
                     >
-                      View Live 
+                      View Live
                     </Link>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ const Homeproject = () => {
                     rel="noopener noreferrer"
                     className="bg-secondary px-3 py-1 rounded-md text-center font-medium"
                   >
-                    View Live 
+                    View Live
                   </Link>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const Homeproject = () => {
           </div>
 
           <div className="flex flex-col space-y-5 lg:space-y-0 lg:flex-row lg:space-x-20 lg:items-center">
-            <div className="flex items-center lg:w-1/2">
+            <div className="flex flex-col lg:w-1/2">
               <div className="space-y-4 flex flex-col lg:space-y-6 rounded-xl px-3 py-7 bg-slate-200 dark:bg-slate-700 lg:px-5">
                 <div className="flex flex-col">
                   <div className="flex items-center space-x-3">
