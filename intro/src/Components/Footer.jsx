@@ -116,7 +116,7 @@ const Footer = () => {
                 className="flex items-center justify-center space-x-2 bg-secondary text-white py-3 px-6"
               >
                 <MdOutlineMail fontSize={20} />
-                <span className="text-sm">oluwasuyitimilehin@gmail.com</span>
+                <span className="text-sm">oluwasuyitimileh/span>
               </Link>
             </div>
           </div>
